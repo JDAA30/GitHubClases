@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pagina web 2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+</head>
+
+<body>
+    <h1>Hola mundo </h1>
+    <h2>Etiqueta 2 </h2>
+    <h3>Etiqueta 3</h3>
+    <h4>Etiqueta 4</h4>
+    <h5>Etiqueta 5</h5>
+    <h6>Etiqueta 6</h6>
+    <p>mucho gusto</p>
+    <p>Saludos desde casa</p>
+    <i>soy italica</i>
+    <p>
+        soy un texto normal <b>Soy negrita</b>
+    </p>
+    <!--Etiqueta para resaltar algo-->
+    <p>El enlace de alta definición móvil (MHL, por sus siglas en inglés) <br>
+        <spam style="color:rgb(17, 0, 255)">es una tecnología que transmite imagen en alta definición
+            y sonido envolvente desde un dispositivo móvil</spam>
+
+        <!-- ul es lista no oredenada-->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+    </ul>
+
+    <hr>
+    <!-- hr Etiqueta de separacion nos mostrara una linea separacion-->
+
+    <!-- ol es lista oredenada-->
+    <ol>
+        <li value="10">elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+        <br>
+        <ol>
+            <a target="_blank" href="https://www.youtube.com">Hora de ver videos</a>
+            <br>
+            <ol>
+                <!--list-style-type: lower-alpha sirve para oredenar por letras o como queramos-->
+                <li style="list-style-type: lower-alpha;">Sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 3</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 4</li>
+            </ol>
+            <hr>
+            <!--etiqueta de formulario-->
+            <form action="/formulario" method="post">
+                <label for="nombre">Escriba un nombre: </label>
+                <input value="josue" type="text" id="nombre" name="nombre" placeholder="Nombre" />
+                <br>
+                <label for="Apellido">Escriba su Apellido: </label>
+                <input value="Acosta" type="text" id="Apellido" name="Apellido" placeholder="Apellido" />
+                <br>
+                <label for="comentario">Comentario</label>
+                <br>
+                <!--Colocar cuadro de texto y sus dimenciones-->
+                <textarea cols="50" rows="10" id="comentario" placeholder="escriba su comentario"
+                    name="Apellido"></textarea>
+                <br>
+                <!--Boton para enviar-->
+                <input type="submit" />
+                <button type="submit">Enviar datos</button>
+                <button type="reset">Borrar</button>
+            </form>
+
+
+</body>
+
+</html>
