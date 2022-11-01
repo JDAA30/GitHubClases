@@ -2,6 +2,19 @@
 <html>
 
 <head>
+    <p class="text">Esto es un texto con detalles</p>
+    <style>
+        h2 {
+            color: rgb(0, 191, 255);
+        }
+
+        h6 {
+            font-size: x-large;
+            background-color: brown;
+        }
+    </style>
+    <!--referenciar al archivo de color-->
+    <link rel="stylesheet" href="colo.css" />
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Pagina web 2</title>
@@ -12,21 +25,27 @@
 </head>
 
 <body>
-    <h1>Hola mundo </h1>
+    <h1 style="background-color: rgb(67, 67, 98);">Hola mundo </h1>
     <h2>Etiqueta 2 </h2>
     <h3>Etiqueta 3</h3>
     <h4>Etiqueta 4</h4>
     <h5>Etiqueta 5</h5>
     <h6>Etiqueta 6</h6>
+    <h1 class="color"> titulo propiedad color</h1>
     <p>mucho gusto</p>
     <p>Saludos desde casa</p>
     <i>soy italica</i>
     <p>
         soy un texto normal <b>Soy negrita</b>
     </p>
+
+    <article id="fondo">
+        Esta es la zona del background
+    </article>
+
     <!--Etiqueta para resaltar algo-->
     <p>El enlace de alta definición móvil (MHL, por sus siglas en inglés) <br>
-        <spam style="color:rgb(17, 0, 255)">es una tecnología que transmite imagen en alta definición
+        <spam style="color:rgb(11, 17, 206)">es una tecnología que transmite imagen en alta definición
             y sonido envolvente desde un dispositivo móvil</spam>
 
         <!-- ul es lista no oredenada-->
@@ -38,16 +57,17 @@
 
     <hr>
     <!-- hr Etiqueta de separacion nos mostrara una linea separacion-->
+    <a target="_blank" href="https://www.youtube.com">Hora de ver videos</a>
 
     <!-- ol es lista oredenada-->
     <ol>
         <li value="10">elemento 1</li>
         <li>elemento 2</li>
-        <li>elemento 3</li>
+        <li>elemento 3</li>W
         <li>elemento 4</li>
         <br>
         <ol>
-            <a target="_blank" href="https://www.youtube.com">Hora de ver videos</a>
+
             <br>
             <ol>
                 <!--list-style-type: lower-alpha sirve para oredenar por letras o como queramos-->
@@ -75,7 +95,6 @@
                 <button type="submit">Enviar datos</button>
                 <button type="reset">Borrar</button>
             </form>
-
 
 </body>
 

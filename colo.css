@@ -1,0 +1,53 @@
+.color {
+    /*aqui especificamos el grosor del borde- color del borde - estilo del borde*/
+    /*border: 5px red inset;*/
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style: inset;
+    border-color: rgb(0, 255, 157);
+    /*bordes redondeados en el titulo*/
+    border-radius: 5px;
+    /*ancho del borde*/
+    border-width: 2rem;
+    text-align: center;
+}
+
+
+#fondo {
+    background-color: rgb(63, 61, 45);
+    /*opacity: 0.3;*/
+    background-image: url('fondop.jpg');
+    height: 300px;
+    background-size: 600px 400px;
+    /*servira para que la imagen no se repita*/
+    background-repeat: no-repeat;
+    text-align: center;
+    /*servira para que se repita solo en el eje orizontal*/
+    /*background-repeat: repeat-x;*/
+    /*servira para que se repita solo en el eje vertical*/
+    /*background-repeat: repeat-y;*/
+    background-position: center top;
+}
+
+.text{
+    /*cambiar la fuente del texto*/
+    font-family: 'Courier New', Courier, monospace;
+    /*alinear el texto a preferencia*/
+    text-align: center;
+    /*colorcar subrayado*/
+    text-decoration: underline;
+    /*tachar lineas*/
+    /*text-decoration: line-through;*/
+    /*para sombrear los textos*/
+    text-shadow: 3px 5px 5px cornflowerblue;
+}
